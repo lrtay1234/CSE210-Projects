@@ -7,7 +7,7 @@ class Program
 
         Random randomGenerator = new Random();
         int magicNumber = randomGenerator.Next(1, 11);
-        Console.WriteLine(magicNumber);
+
         
         int number = 0; /// declare here.
 
@@ -20,7 +20,7 @@ class Program
 
             if (number == magicNumber)
             {
-                Console.WriteLine("Congrats! You got it write");
+                Console.WriteLine("Congrats! You got it right. ");
             }
             else if (number > magicNumber)
             {
