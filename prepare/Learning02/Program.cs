@@ -8,7 +8,7 @@ class Program
     static void Main(string[] args)
     {
 
-        // job1 is the object
+        // job1 is the object and instance
         Job job1 = new Job();
         job1._jobTitle = "Software engineer";
         job1._company = "Microsoft";
@@ -16,7 +16,7 @@ class Program
         job1._endYear = 2022;
 
 
-        // job2 is the objects
+        // job2 is the objects and instance
         Job job2 = new Job();
 
         job2._jobTitle = "Eletrical engineer";
@@ -37,6 +37,8 @@ class Program
         resume._jobs.Add(job1);
         resume._jobs.Add(job2);
 
+
+        // this is the behavior
         resume.DisplayEverything();
 
 

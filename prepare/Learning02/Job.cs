@@ -13,7 +13,7 @@ class Job
 
 
 
-    // this is the Method
+    // this is the Method and i think connected to bahevior
     public void DisplayJobTitles()
     {
         Console.WriteLine($"{_jobTitle} ({_company}) {_startYear}-{_endYear}");
