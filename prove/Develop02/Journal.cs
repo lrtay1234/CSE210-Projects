@@ -57,6 +57,7 @@ class Journal
         if (File.Exists(filename))
         {
             _entries.Clear();
+            Console.WriteLine(Path.GetFullPath(filename));
             string[] lines = File.ReadAllLines(filename);
             foreach (string line in lines)
             {
