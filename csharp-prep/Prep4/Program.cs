@@ -6,23 +6,27 @@ class Program
     static void Main(string[] args)
     {
         List<int> numbers = new List<int>();
-        int number = 0;
+        int number = -1;
         int sum = 0;
         int maxNumber = 0;
 
 
 
 
-        do
+        while (number != 0)
         {
+
             Console.WriteLine("Enter in numbers (O to quit): ");
             string userInput = Console.ReadLine();
             number = int.Parse(userInput);
 
-
+            if (number != 0)
+            {
             numbers.Add(number);
+            }
             
-        }while (number != 0);
+            
+        }
 
         foreach (int number2 in numbers)
         {
