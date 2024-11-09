@@ -2,7 +2,7 @@
 
 using System;
 
-class Employee
+public class Employee
 {
     private string name;
     private int id;
