@@ -9,7 +9,7 @@ public class Employee
     private double salary;
 
 
-
+    //constructor
     public Employee(string name, int id, double salary)
     {
         this.name = name;
