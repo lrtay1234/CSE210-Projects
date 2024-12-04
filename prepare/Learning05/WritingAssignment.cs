@@ -18,4 +18,8 @@ public class WritingAssignment : Summary
     {
         return $"{_title}";
     }
+    public string GetFullTitle()
+    {
+        return $"Student: {_name}. Topic: {_topic}. Title: {_title}";
+    }
 }

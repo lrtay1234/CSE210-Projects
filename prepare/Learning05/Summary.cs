@@ -2,8 +2,8 @@ using System;
 
 public class Summary
 {
-    private string _name;
-    private string _topic;
+    protected string _name;
+    protected string _topic;
 
 
     public Summary(string name, string topic)
