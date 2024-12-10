@@ -18,6 +18,10 @@ public class Activity
  
 
     }
+    // Everything in my program worked execpt run(), I researched some stuff
+    // and found that this virtual tool would help
+    // I also had to overide the other run() methods in my other classes.
+    // I did use caht GPT to figure out somethings as well.
     public virtual void Run()
     {}
 
